@@ -30,7 +30,7 @@
 
 ### layer
 
-layer为一个消息提示框，默认3秒钟消失
+layer为一个消息提示框，默认2秒钟消失
 
 | Parameter | Type | Description |
 | -------- | ------- | ------ |
