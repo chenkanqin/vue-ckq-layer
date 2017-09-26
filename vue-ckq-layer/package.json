@@ -1,15 +1,87 @@
 {
-  "name": "ckq",
-  "version": "1.0.0",
-  "description": "'弹窗插件'",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "vue-ckq-layer",
+        "scope": null,
+        "escapedName": "vue-ckq-layer",
+        "name": "vue-ckq-layer",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\后台\\nre\\xxgsht\\admin"
+    ]
+  ],
+  "_from": "vue-ckq-layer@latest",
+  "_id": "vue-ckq-layer@1.0.0",
+  "_inCache": true,
+  "_location": "/vue-ckq-layer",
+  "_nodeVersion": "6.10.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/vue-ckq-layer-1.0.0.tgz_1505798870989_0.7785720739047974"
   },
+  "_npmUser": {
+    "name": "ckq",
+    "email": "1125093590@qq.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-ckq-layer",
+    "scope": null,
+    "escapedName": "vue-ckq-layer",
+    "name": "vue-ckq-layer",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-ckq-layer/-/vue-ckq-layer-1.0.0.tgz",
+  "_shasum": "6ff298d725059a5956fcb910c4d5b36c965fd603",
+  "_shrinkwrap": null,
+  "_spec": "vue-ckq-layer",
+  "_where": "E:\\后台\\nre\\xxgsht\\admin",
+  "author": {
+    "name": "ckq"
+  },
+  "bugs": {
+    "url": "https://github.com/chenkanqin/vue-ckq-layer/issues"
+  },
+  "dependencies": {},
+  "description": "'弹窗插件'",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6ff298d725059a5956fcb910c4d5b36c965fd603",
+    "tarball": "https://registry.npmjs.org/vue-ckq-layer/-/vue-ckq-layer-1.0.0.tgz"
+  },
+  "homepage": "https://github.com/chenkanqin/vue-ckq-layer#readme",
   "keywords": [
     "ckq",
     "vue"
   ],
-  "author": "CKQ",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ckq",
+      "email": "1125093590@qq.com"
+    }
+  ],
+  "name": "vue-ckq-layer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenkanqin/vue-ckq-layer.git"
+  },
+  "scripts": { 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
 }

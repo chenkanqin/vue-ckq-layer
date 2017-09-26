@@ -1,16 +1,17 @@
 <template>
-    <div class="ckq-loading" v-if="visible" :style="{'top': top, 'left': left, 'width': width, 'height': height}">
-        <div class="bg"></div>
-        <div class="ckq-container">
-            <div class="loading-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+    <transition name="fadeLoading">
+        <div class="ckq-loading" v-if="visible" :style="{'top': top, 'left': left, 'width': width, 'height': height}">
+            <div class="ckq-container">
+                <div class="loading-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
-    </div>
+    </transition>
 </template>
 
 <script type="text/javascript">
@@ -36,7 +37,7 @@
 <style type="text/css">
     .ckq-loading {
         color: #45B0FF;
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -47,7 +48,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: rgba(255, 255, 255, 0.56);
+        background: rgba(0, 0, 0, 0.53);
         z-index: 999;
     }
 
@@ -98,5 +99,44 @@
 
     .loading-icon span:nth-child(5) {
         -webkit-animation-delay: 0.8s;
+    }
+    .fadeLoading-enter-active, .fadeLoading-leave-active {
+        animation-duration: .3s;
+        animation-fill-mode: both;
+        animation-play-state: paused;
+        animation-play-state: running;
+        animation-timing-function: linear;
+    }
+
+    .fadeLoading-enter-active {
+        animation-name: ckq_loading_FadeIn;
+    }
+
+    .fadeLoading-leave-active {
+        animation-name: ckq_loading_FadeOut;
+    }
+
+    .fadeLoading-enter-active {
+        opacity: 0;
+    }
+
+    @keyframes ckq_loading_FadeIn {
+        0% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 1
+        }
+    }
+
+    @keyframes ckq_loading_FadeOut {
+        0% {
+            opacity: 1
+        }
+
+        100% {
+            opacity: 0
+        }
     }
 </style>
