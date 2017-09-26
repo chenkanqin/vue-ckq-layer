@@ -80,3 +80,21 @@ eg:
 ```
     <ckq-loading :visible="loadingVisible"></ckq-loading>
 ```
+
+
+### ckq-editDiv
+
+可编辑性div contenteditable='true', 模拟表单v-model ， 
+
+| Parameter | Type | Description |
+| --------| ------ | ----- |
+| isCanEdit | Boolean | 是否可编辑 |
+| content | String | 内容 |
+| input | String | 动态改变的值 |
+| minHeight | String | 默认可编辑div高度（px）,默认 '50'|
+
+eg:
+
+```
+    <ckq-editDiv :minHeight="50" :canEdit="isCanEdit" :value='contInfo.content' v-on:input="changeText"></ckq-editDiv>
+```
