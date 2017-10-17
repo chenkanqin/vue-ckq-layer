@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "E:\\后台\\nre\\xxgsht\\admin"
+      ""
     ]
   ],
   "_from": "vue-ckq-layer@latest",
@@ -45,7 +45,7 @@
   "_shasum": "6ff298d725059a5956fcb910c4d5b36c965fd603",
   "_shrinkwrap": null,
   "_spec": "vue-ckq-layer",
-  "_where": "E:\\后台\\nre\\xxgsht\\admin",
+  "_where": "",
   "author": {
     "name": "ckq"
   },
@@ -83,5 +83,5 @@
   "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

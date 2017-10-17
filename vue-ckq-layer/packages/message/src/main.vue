@@ -1,6 +1,6 @@
 <template>
     <transition name="fadeMessage">
-        <div class="message" v-if="isShow">
+        <div class="ckq-message" v-if="isShow">
             {{message}}
         </div>
     </transition>
@@ -29,7 +29,7 @@
                     that.isShow = false
                 }, this.time);
             }
-        }
+        } 
     }
 </script>
 
