@@ -29,12 +29,12 @@
                     that.isShow = false
                 }, this.time);
             }
-        } 
+        }
     }
 </script>
 
 <style type="text/css">
-    .message {
+    .ckq-message {
         position: fixed;
         padding: 10px;
         border-radius: 2px;
