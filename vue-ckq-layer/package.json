@@ -22,6 +22,7 @@
         "spec": "1.0.5",
         "type": "version"
       },
+      ""
     ]
   ],
   "_cnpm_publish_time": 1508219000097,
@@ -57,6 +58,7 @@
   "_shasum": "d0da70f985e39e94c3a436fbd5625bbaa5d87d37",
   "_shrinkwrap": null,
   "_spec": "vue-ckq-layer@1.0.5",
+  "_where": "",
   "author": {
     "name": "ckq"
   },
@@ -90,12 +92,12 @@
   "optionalDependencies": {},
   "publish_time": 1508219000097,
   "readme": "ERROR: No README data found!",
-  "repository": { 
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/chenkanqin/vue-ckq-layer.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.7"
+  "version": "1.0.6"
 }
