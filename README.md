@@ -98,3 +98,33 @@ eg:
 ```
     <ckq-editDiv :minHeight="50" :canEdit="isCanEdit" :value='contInfo.content' v-on:input="changeText"></ckq-editDiv>
 ```
+
+
+
+
+### ckq-scroll
+
+监听该组件内部内容距离顶部的距离，window滚动
+
+| Parameter | Type | Description |
+| --------| ------ | ----- |
+| listen | Boolean | 是否需要监听 默认false |
+| bottom | Number | 距离底部多少（px）设置未到达底部，默认0|
+| scroll | obj | 监听事件 |
+
+eg:
+
+```
+      <ckq-scroll v-on:scroll="scroll" :listen="true" :bottom="300">
+        <div>内容</div>
+      </ckq-editDiv>
+```
+scroll返回的值
+
+```
+       config = {
+            windowScroll: 0, //window滚动
+            activeBoxOffsetTop: 0,//目标距顶部距离
+            inBottom:Boolean //是否到达底部
+       }
+```
