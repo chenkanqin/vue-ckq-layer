@@ -11,16 +11,28 @@
         "type": "tag"
       },
       ""
+    ],
+    [
+      {
+        "raw": "vue-ckq-layer@1.0.5",
+        "scope": null,
+        "escapedName": "vue-ckq-layer",
+        "name": "vue-ckq-layer",
+        "rawSpec": "1.0.5",
+        "spec": "1.0.5",
+        "type": "version"
+      },
     ]
   ],
-  "_from": "vue-ckq-layer@latest",
-  "_id": "vue-ckq-layer@1.0.0",
+  "_cnpm_publish_time": 1508219000097,
+  "_from": "vue-ckq-layer@1.0.5",
+  "_id": "vue-ckq-layer@1.0.5",
   "_inCache": true,
   "_location": "/vue-ckq-layer",
   "_nodeVersion": "6.10.2",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/vue-ckq-layer-1.0.0.tgz_1505798870989_0.7785720739047974"
+    "tmp": "tmp/vue-ckq-layer-1.0.5.tgz_1508219000030_0.6722772712819278"
   },
   "_npmUser": {
     "name": "ckq",
@@ -29,23 +41,22 @@
   "_npmVersion": "3.10.10",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "vue-ckq-layer",
+    "raw": "vue-ckq-layer@1.0.5",
     "scope": null,
     "escapedName": "vue-ckq-layer",
     "name": "vue-ckq-layer",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "1.0.5",
+    "spec": "1.0.5",
+    "type": "version"
   },
   "_requiredBy": [
     "#DEV:/",
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/vue-ckq-layer/-/vue-ckq-layer-1.0.0.tgz",
-  "_shasum": "6ff298d725059a5956fcb910c4d5b36c965fd603",
+  "_resolved": "http://registry.npm.taobao.org/vue-ckq-layer/download/vue-ckq-layer-1.0.5.tgz",
+  "_shasum": "d0da70f985e39e94c3a436fbd5625bbaa5d87d37",
   "_shrinkwrap": null,
-  "_spec": "vue-ckq-layer",
-  "_where": "",
+  "_spec": "vue-ckq-layer@1.0.5",
   "author": {
     "name": "ckq"
   },
@@ -57,8 +68,10 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "6ff298d725059a5956fcb910c4d5b36c965fd603",
-    "tarball": "https://registry.npmjs.org/vue-ckq-layer/-/vue-ckq-layer-1.0.0.tgz"
+    "shasum": "d0da70f985e39e94c3a436fbd5625bbaa5d87d37",
+    "size": 4933,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/vue-ckq-layer/download/vue-ckq-layer-1.0.5.tgz"
   },
   "homepage": "https://github.com/chenkanqin/vue-ckq-layer#readme",
   "keywords": [
@@ -75,13 +88,14 @@
   ],
   "name": "vue-ckq-layer",
   "optionalDependencies": {},
+  "publish_time": 1508219000097,
   "readme": "ERROR: No README data found!",
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/chenkanqin/vue-ckq-layer.git"
   },
-  "scripts": { 
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.5"
+  "version": "1.0.7"
 }

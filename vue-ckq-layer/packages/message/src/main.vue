@@ -34,7 +34,7 @@
 </script>
 
 <style type="text/css">
-    .ckq-message {
+    .ckq-message { 
         position: fixed;
         padding: 10px;
         border-radius: 2px;
